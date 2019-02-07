@@ -52,11 +52,13 @@
 
 ## 공통 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다.
+```
 * Architecture Design : Micro Service Architecture
 * SCM : git
 * Project Management, Issue Tracking : JIRA
 * Communication : Slack
 * Build & Deployment : docker, docker-compose, kubernetes(near future)
+```
 
 ## 지원 방법
 * 제출서류
@@ -79,6 +81,7 @@
 
 #### Front-End 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다. 단순 참고자료 입니다.
+```
 * UI Framework: AngularJS (version 7^)
   * material2 : @angular/material
   * flexLayout : @angular/flex-layout
@@ -89,7 +92,8 @@
   * HTML5
   * CSS3
   * TypeScript
-  
+```
+
 #### 요구 사항
 * 모집대상 공통
 * 웹 프론트엔드 개발이 가능한 사람 (html, javascript, css)
@@ -118,6 +122,7 @@
 
 ### Back-End 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다. 단순 참고자료 입니다.
+```
 * Server Software : Nodejs
 ** Express.js - middleware & api server
 ** actionhero - middleware & api server
@@ -130,6 +135,7 @@
 * Language
   * Javascript (ES6+)
   * Bash Script
+```
 
 #### 요구 사항
 * 모집대상 공통
