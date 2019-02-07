@@ -64,7 +64,7 @@
   * 경력기술서
   * 본인이 작성한 code snippet 또는 공개된 소스 저장소 링크 (선택)
 * 지원서 제출
-  * jobs@yujinrobot.com 으로 이메일 지원
+  * <jobs@yujinrobot.com> 으로 이메일 지원
 * 채용 과정
   * 서류 전형
   * 면접 (1차 : 실무진, 2차 : 임원진)
