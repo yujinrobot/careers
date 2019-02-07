@@ -1,7 +1,7 @@
 
 ## 회사 소개
 
-[유진로봇](http://www.yujinrobot.com)은 1988년에 설립된 30년차 로봇 전문 기업으로서 국내 최초 청소 로봇 상용화, 세계 최초 유아 교육 로봇 상용화, 국내 최초 군사용 로봇 개발 등 서비스 로봇 분야의 축적된 기술과 서비스 노하우를을 보유하고 있습니다.
+[유진로봇](http://www.yujinrobot.com)은 1988년에 설립된 30년차 로봇 전문 기업으로서 국내 최초 청소 로봇 상용화, 세계 최초 유아 교육 로봇 상용화, 국내 최초 군사용 로봇 개발 등 서비스 로봇 분야의 축적된 기술과 서비스 노하우를 보유하고 있습니다.
 
 ### 우리 회사의 장점
 
@@ -20,12 +20,11 @@
 * Tech. survey 및 스터디 시간 할당 및 내용 공유
 * 품질 개선을 위해 공동 개발을 통한 코드리뷰
 
-![Image](https://drive.google.com/open?id=0B2UTJP1XlzQJT0JJeGQtUi1sems)
-## ROCON 프로젝트 소개
+## ROCON 프로젝트 소개 및 비전
 
 단일 로봇의 기능에만 의존하는 서비스 로봇의 한계를 벗어나 여러대의 다양한 로봇들이 실제 삶의 현장속에 녹아들어 주변의 엘리베이터와 같은 시설부터  IOT 장치들과 연동하여 가치있는 로봇 서비스를 제공할 수 있는 로봇 서비스 SW 프레임워크입니다.
 
-로봇들과, 건물 내의 엘리베이터나 자동문과 같은 시설, IOT 장치, 사람들이 이용하는 스마트 기기 등이 어우러져 조화롭게 서비스를 이루는 것을 Robotics in Concert라고 명한 프로젝트로부터 서버의 명칭이 Concert가 되었습니다.
+서버 소프트웨어의 명칭인 Concert는 로봇들과, 건물 내의 엘리베이터나 자동문과 같은 시설, IOT 장치, 사람들이 이용하는 스마트 기기 등이 어우러져 조화롭게 서비스를 이루는 것을 Robotics in Concert(ROCON)라고 명명한 프로젝트로부터 유래되었습니다.
 
 주요 기능은 다음과 같습니다.
 ```markdown
@@ -35,7 +34,7 @@
 - 서비스를 구성하는 resource에 대한 관리 및 모니터링
 - 서비스 운영 결과에 대한 리포트 및 분석
 ```
-로봇과 다양한 IOT 기기들이 점점 일터와 생활 속에서 역할을 더해가는 4차 산업시대에 사용자가 원하는 정보 서비스와 물리적 서비스를 다양한 비지니스 환경에서 여러 자율 주행 로봇들이 수행할 수 있도록 지원하는 것이 Robotics in Concert 프로젝트입니다.
+로봇과 다양한 IOT 기기들이 점점 일터와 생활 속에서 역할을 더해가는 4차 산업시대에 사용자가 원하는 정보 서비스와 물리적 서비스를 다양한 비지니스 환경에서 여러 자율 주행 로봇들이 수행할 수 있도록 지원하는 것이 ROCON 프로젝트입니다.
 
 향후 로봇 서비스로부터 얻어지는 다양한 데이터에 대한 수집 및 분석을 자동화 하고 학습하여 서비스의 품질을 매번 세세한 설정없이도 개선할 수 있는 적응형 로봇 서비스 플랫폼으로 발전하고 싶습니다.
 
@@ -45,58 +44,39 @@
   * 석사 이상 이공계 학위 취득자(석/박사학위 통합과정 수료자 포함)
   * 사회복무요원 소집대상자로서 이공계 학사 학위 취득자
   
-## Concert Software 개발자 공통 항목
+## Software 개발자 공통 요구사항
 * 소프트웨어 관련 전공 학사 또는 그에 해당하는 유관 분야 경력자
 * 기본 전공지식을 갖춘 사람 (Data Structure, Algorithm, OS, Network 등)
 * SCM (git, svn 등) 사용이 가능한 사람
 
 ## 공통 사용기술 및 도구
+현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다.
 * Architecture Design : Micro Service Architecture
 * SCM : git
 * Project Management, Issue Tracking : JIRA
 * Communication : Slack
 * Build & Deployment : docker, docker-compose, kubernetes(near future)
 
-### Back-End 사용기술 및 도구
-* Server Software : Nodejs
-** Express.js - middleware & api server
-** actionhero - middleware & api server
-* Database : MySQL, MariaDB, MongoDB
-** mongoose - mongoDB ODM
-** sequelize - RDBMS ORM
-* winston - logger
-* Linting : ESLint
-* Testing : Mocha, Chai
-* Language
-  * Javascript (ES6+)
-  * Bash Script
-
 ## 지원 방법
-
 * 제출서류
   * 이력서
   * 경력기술서
   * 본인이 작성한 code snippet 또는 공개된 소스 저장소 링크 (선택)
-
 * 지원서 제출
   * jobs@yujinrobot.com 으로 이메일 지원
-
 * 채용 과정
   * 서류 전형
   * 면접 (1차 : 실무진, 2차 : 임원진)
 
 ## 모집 대상
-
 ### Front-end Developer (Junior, Intermediate, Senior)
 #### 주요 업무 : 프론트엔드 응용 프로그램 및 프레임워크 개발
   * 사용자가 로봇 서비스를 쉽게 설치하고, 운영 및 이용할 수 있는 Web interface 개발
   * 멀티 로봇 서비스를 위한 환경 설정/모니터링/운영 결과 보고를 위한 User interface 개발 
   * 로봇 서비스를 활용하기 위한 사용자 웹어플리케이션 개발
   * 개별 로봇 운영을 위한 웹 어플리케이션 개발
-
 #### Front-End 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다. 단순 참고자료 입니다.
-
 * UI Framework: AngularJS (version 7^)
   * material2 : @angular/material
   * flexLayout : @angular/flex-layout
@@ -107,12 +87,10 @@
   * HTML5
   * CSS3
   * TypeScript
-
 #### 요구 사항
 * 모집대상 공통
 * 웹 프론트엔드 개발이 가능한 사람 (html, javascript, css)
 * Angular, Vue, React, Meteor 중 하나이상 Web Framework 사용해본적 있는 사람
-
 #### 우대 사항
 * Full-Stack Web Developer
 * Angular.JS(version 2^) 사용에 능숙한 사람
@@ -132,16 +110,25 @@
 * 엘리베이터, 자동문, 센서 등 여러가지 IoT 디바이스들을 서비스에 이용할 수 있도록 개발 
 * 적응형 시스템
   * 운영중에 얻어진 데이터로부터 데이터마이닝, 학습을 통해 시스템의 성능을 자율적으로 개선하는 적응형 시스템 설계 및 구현
-
-#### 사용 기술
+### Back-End 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다. 단순 참고자료 입니다.
-
+* Server Software : Nodejs
+** Express.js - middleware & api server
+** actionhero - middleware & api server
+* Database : MySQL, MariaDB, MongoDB
+** mongoose - mongoDB ODM
+** sequelize - RDBMS ORM
+* winston - logger
+* Linting : ESLint
+* Testing : Mocha, Chai
+* Language
+  * Javascript (ES6+)
+  * Bash Script
 #### 요구 사항
 * 모집대상 공통
 * Javascript(ES5. ES6, etc 무관)사용자
 * Nodejs 로 API 서버 개발이 가능한 사람
 * Database 사용이 가능한 사람
-
 #### 우대 사항
 아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
 * Full-stack Web Developer
@@ -154,22 +141,18 @@
 * 오픈소스 프로젝트 기여 경험
 
 ### DevOps
-
 ## 주요 업무
 * 개발팀 프로세스를 반영하는 CI/CD 구현및 관리
 * 테스트자동화 및 로봇 기능 및 신뢰성 테스트
 * 개별 소프트웨어 및  구조적인 문제 발견 및 이슈 관리
 * 서버 리소스 모니터링
 * 서비스 및 시스템 보안 관리
-
 ## 요구 사항 (필수)
 * Linux admin 기술
 * 스크립트 코딩 기술(python OR Bash shell)
 * 시스템 자동화 및 운영 경험
-
 ## 우대 사항
 아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
-
 * Ansible 사용 경험
 * 가상화 시스템(Docker, Kubernetes) 사용 경험
 * Github/Bitbucket 등 협업기반 repository 사용 경험
