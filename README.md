@@ -88,10 +88,12 @@
   * HTML5
   * CSS3
   * TypeScript
+  
 #### 요구 사항
 * 모집대상 공통
 * 웹 프론트엔드 개발이 가능한 사람 (html, javascript, css)
 * Angular, Vue, React, Meteor 중 하나이상 Web Framework 사용해본적 있는 사람
+
 #### 우대 사항
 * Full-Stack Web Developer
 * Angular.JS(version 2^) 사용에 능숙한 사람
@@ -112,6 +114,7 @@
 * 엘리베이터, 자동문, 센서 등 여러가지 IoT 디바이스들을 서비스에 이용할 수 있도록 개발 
 * 적응형 시스템
   * 운영중에 얻어진 데이터로부터 데이터마이닝, 학습을 통해 시스템의 성능을 자율적으로 개선하는 적응형 시스템 설계 및 구현
+
 ### Back-End 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다. 단순 참고자료 입니다.
 * Server Software : Nodejs
@@ -126,11 +129,13 @@
 * Language
   * Javascript (ES6+)
   * Bash Script
+
 #### 요구 사항
 * 모집대상 공통
 * Javascript(ES5. ES6, etc 무관)사용자
 * Nodejs 로 API 서버 개발이 가능한 사람
 * Database 사용이 가능한 사람
+
 #### 우대 사항
 아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
 * Full-stack Web Developer
@@ -150,16 +155,16 @@
 * 개별 소프트웨어 및  구조적인 문제 발견 및 이슈 관리
 * 서버 리소스 모니터링
 * 서비스 및 시스템 보안 관리
+
 #### 요구 사항
 * Linux admin 기술
 * 스크립트 코딩 기술(python OR Bash shell)
 * 시스템 자동화 및 운영 경험
+
 #### 우대 사항
 아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
 * Ansible 사용 경험
 * 가상화 시스템(Docker, Kubernetes) 사용 경험
 * Github/Bitbucket 등 협업기반 repository 사용 경험
 * 클라우드 서비스 구축 및 운영 경험
-* 애자일 방법을 통한 개발팀과의 협업 경험
-
-  
+* 애자일 방법을 통한 개발팀과의 협업 경험 
