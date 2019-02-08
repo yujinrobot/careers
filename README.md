@@ -12,10 +12,10 @@
 
 ## 우리가 지향하는 개발 문화
 
-> 열려있는 기술적 토론
-자기 주도적 연구/개발
-Tech. survey 및 스터디 시간 할당 및 내용 공유
-품질 개선을 위해 공동 개발을 통한 코드리뷰
+> * 열려있는 기술적 토론
+> * 자기 주도적 연구/개발
+> * Tech. survey 및 스터디 시간 할당 및 내용 공유
+> * 품질 개선을 위해 공동 개발을 통한 코드리뷰
 
 ## ROCON 프로젝트 소개 및 비전
 
@@ -77,7 +77,7 @@ Tech. survey 및 스터디 시간 할당 및 내용 공유
 * 경력기술서
 * 본인이 작성한 code snippet 또는 공개된 소스 저장소 링크 (선택)
 
-## 채용 전형
+## Open Positions
 ------
 
 ### Front-end Developer (Junior, Intermediate, Senior)
@@ -90,7 +90,7 @@ Tech. survey 및 스터디 시간 할당 및 내용 공유
   * 개별 로봇 운영을 위한 웹 어플리케이션 개발
 
 #### Front-End 사용기술 및 도구
-현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다. 단순 참고자료 입니다.
+현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다.
 
 * UI Framework: Angular
   * material2 : @angular/material
@@ -105,7 +105,6 @@ Tech. survey 및 스터디 시간 할당 및 내용 공유
 * `Angular`, `Vue`, `React` 등의 Web Framework 를 사용해본 경험이 있는 사람
 
 #### 우대 사항
-
 아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
 
 * Full-Stack Web Developer
@@ -133,8 +132,8 @@ Tech. survey 및 스터디 시간 할당 및 내용 공유
 * 적응형 시스템
   * 운영중에 얻어진 데이터로부터 데이터마이닝, 학습을 통해 시스템의 성능을 자율적으로 개선하는 적응형 시스템 설계 및 구현
 
-### Back-End 사용기술 및 도구
-현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다. 단순 참고자료 입니다.
+#### Back-End 사용기술 및 도구
+현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다. 
 
 * Server Software : Nodejs
   * Express.js - middleware & api server
@@ -145,7 +144,6 @@ Tech. survey 및 스터디 시간 할당 및 내용 공유
 * Linting : ESLint
 * Testing : Mocha, Chai
 
-
 #### 요구 사항
 * 모집대상 공통
 * `Javascript`(ES6, ES7+) 사용자
@@ -154,6 +152,7 @@ Tech. survey 및 스터디 시간 할당 및 내용 공유
 
 #### 우대 사항
 아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
+
 * Full-stack Web Developer
 * Linux 환경에서의 개발이 익숙한 사람
 * RESTful API 설계 경험
@@ -166,6 +165,7 @@ Tech. survey 및 스터디 시간 할당 및 내용 공유
 ------
 
 ### DevOps
+
 #### 주요 업무
 * 개발팀 프로세스를 반영하는 CI/CD 구축 및 관리
 * 테스트자동화 및 로봇 기능 및 신뢰성 테스트 지원
@@ -181,6 +181,7 @@ Tech. survey 및 스터디 시간 할당 및 내용 공유
 
 #### 우대 사항
 아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
+
 * Ansible 사용 경험
 * 가상화 시스템(Docker, Kubernetes) 사용 경험
 * Github/Bitbucket 등 협업기반 repository 사용 경험
