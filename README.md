@@ -19,9 +19,8 @@
 
 ## ROCON 프로젝트 소개 및 비전
 
-단일 로봇의 기능에만 의존하는 서비스 로봇의 한계를 벗어나 여러대의 다양한 로봇들이 실제 삶의 현장속에 녹아들어 주변의 엘리베이터와 같은 시설부터  IOT 장치들과 연동하여 가치있는 로봇 서비스를 제공할 수 있는 로봇 서비스 SW 프레임워크입니다.
-
-서버 소프트웨어의 명칭인 Concert는 로봇들과, 건물 내의 엘리베이터나 자동문과 같은 시설, IOT 장치, 사람들이 이용하는 스마트 기기 등이 어우러져 조화롭게 서비스를 이루는 것을 Robotics in Concert(ROCON)라고 명명한 프로젝트로부터 유래되었습니다.
+단일 로봇의 기능에만 의존하는 서비스 로봇의 한계를 벗어나 여러대의 다양한 로봇들이 실제 삶의 현장속에 녹아들어 주변의 엘리베이터와 같은 시설부터 IOT 장치들과 서로 연동하여 가치있는 로봇 서비스를 제공할 수 있는 로봇 서비스 SW 프레임워크입니다. 
+마치 음악회(Concert)같이 다수 로봇을 통한 서비스가 주변 환경 및 사람들과 조화롭게 이루어진다고 생각하여 Robotics in Concert라고 프로젝트의 이름을 정했습니다. 
 
 주요 기능은 다음과 같습니다.
 
@@ -50,7 +49,7 @@
 ## Software 개발자 공통
 * 소프트웨어 관련 전공 학사 또는 그에 해당하는 유관 분야 경력자
 * 기초 전공지식을 갖춘 사람 (Data Structure, Algorithm, OS, Network 등)
-* SCM (git, svn 등) 사용이 가능한 사람
+* VCS (git, svn 등) 사용이 가능한 사람
 
 ## Software 공통 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다.
@@ -58,7 +57,7 @@
 | Category                | Tech |
 | ---- | ---- |
 | Architecture Design                | Micro Service Architecture |
-| SCM                                | Git                        |
+| VCS                                | Git                        |
 | Project Management, Issue Tracking | JIRA                       |
 | Communication                      | Slack                      |
 | Deployment                         | Docker                     |
@@ -67,7 +66,7 @@
 
 ### 채용 과정
 1. 지원서 제출
-   * <jobs@yujinrobot.com> 으로 이메일 지원
+   * <rndjobs@yujinrobot.com> 으로 이메일 지원
 1. 서류 전형
 1. 면접 (1차 : 실무진, 2차 : 임원진)
 
@@ -75,7 +74,7 @@
 
 * 이력서
 * 경력기술서
-* 본인이 작성한 code snippet 또는 공개된 소스 저장소 링크 (선택)
+* (선택)본인이 작성한 code snippet 또는 공개된 소스 저장소 링크 
 
 ## Open Positions
 ------
@@ -83,6 +82,8 @@
 ### Front-end Developer (Junior, Intermediate, Senior)
 
 #### 주요 업무 : 프론트엔드 응용 프로그램 및 프레임워크 개발
+
+지원자의 선호/역량에 따라 실제 업무는 아래와 다소 달라질 수 있습니다.
 
   * 사용자가 로봇 서비스를 쉽게 설치하고, 운영 및 이용할 수 있는 Web UI 개발
   * 멀티 로봇 서비스를 위한 환경 설정/모니터링/운영 결과 보고를 위한 UI 개발 
@@ -92,10 +93,10 @@
 #### Front-End 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다.
 
-* UI Framework: Angular
+* UI Framework: Angular2
   * material2 : @angular/material
   * flexLayout : @angular/flex-layout
-  * D3.js
+* Library for reactive programming : RxJS
 * Linting : TSLint
 * Testing : karma
 
@@ -119,7 +120,7 @@
 
 #### 주요 업무 : 로봇 시스템 운영을 위한 서버 및 프레임워크 개발
 
-지원자에 역량에 따라 실제 업무는 아래와 달라질 수 있습니다.
+지원자의 선호/역량에 따라 실제 업무는 아래와 다소 달라질 수 있습니다.
 
 * 서비스 운영에 필요한 로봇들의 관리
   * 로봇들의 상태 및 작업을 관리하고 감독 할 수 있게 해주는 소프트웨어 설계 및 개발
@@ -142,7 +143,7 @@
   * sequelize - RDBMS ORM
 * Logging: winston
 * Linting : ESLint
-* Testing : Mocha, Chai
+* Testing : AVA
 
 #### 요구 사항
 * 모집대상 공통
@@ -161,6 +162,45 @@
 * CI / CD 경험
 * 클라우드 서비스 이용 및 구축 경험
 * 오픈소스 프로젝트 기여 경험
+
+------
+
+### Python Developer (Intermediate, Senior)
+
+#### 주요 업무 : 로봇의 의사 결정 및 서버와 협업을 위한 시스템 개발
+
+지원자의 선호/역량에 따라 실제 업무는 아래와 다소 달라질 수 있습니다.
+
+* 사용자가 원하는 작업을 로봇이 할 수 있는 형태로 해석
+* Fleet management system에 로봇이 할 수 있는 일과 현재 상태를 고지
+* 로봇이 단독으로 알기 어려운 정보에 대해 서버와 통신하여 서비스 운영에 필요한 정보를 획득하여 작업계획을 변경
+* Concert Platform에서 운영될 3rd party 로봇 개발자들을 위한 SDK 설계 및 개발
+* 적응형 시스템
+  *운영중에 얻어진 데이터로부터 데이터마이닝, 학습을 통해 로봇의 성능을 자율적으로 개선하는 적응형 시스템 설계 및 구현
+
+#### 사용기술 및 도구
+
+현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다. 
+
+* Programming language : python
+* Logging: python logging 
+* Linting :  pep8
+* Testing : unittest
+
+#### 요구 사항
+* 모집대상 공통
+* Python언어의 자료 구조에 대한 이해 및 응용 분야에 대한 적용 경험
+
+
+#### 우대 사항
+아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
+
+* Game AI 등에서 계획 수행 알고리즘 사용 경험(Ex : Behaviour tree)
+* SDK 설계 및 작성 경험.
+* DB 혹은 ORM 사용 경험. 
+* Robotics 전공자 혹은 ROS 사용 경험자
+* Restful API 설계/서비스 개발 혹은 이용 경험
+
 
 ------
 
