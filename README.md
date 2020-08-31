@@ -1,14 +1,15 @@
 # 회사 소개
 
-[유진로봇](http://www.yujinrobot.com)은 1988년에 설립된 30년차 로봇 전문 기업으로서 국내 최초 청소 로봇 상용화, 세계 최초 유아 교육 로봇 상용화, 국내 최초 군사용 로봇 개발 등 서비스 로봇 분야의 축적된 기술과 서비스 노하우를 보유하고 있습니다.
+[유진로봇](http://www.yujinrobot.com)은 1988년에 설립된 30년차 로봇 전문 기업으로서 국내 최초 청소 로봇 상용화, 세계 최초 유아 교육 로봇 상용화, 국내 최초 군사용 로봇 개발 등 서비스 로봇 분야의 축적된 기술과 모바일 로봇 서비스에 대한 노하우를 보유하고 있습니다.
 
 ## 우리 회사의 장점
 
 * 서비스 로봇 사업에 회사의 역량을 집중
 * 단순 로봇 제조만이 아닌 수준있는 로봇 서비스를 위해 기구, 하드웨어, 제어, 소프트웨어 엔지니어들이 서로 협업
+* 자율 주행을 위한 핵심 센서의 개발을 비롯하여 오랜 기간 연구한 자율주행 로봇의 원천기술 보유
 * 국내 최초 ROS reference 오픈하드웨어 모바일 베이스인 [Kobuki](http://kobukikr.yujinrobot.com) 출시 및 [ROS SW package](http://wiki.ros.org/kobuki) 개발 등 Open source robotics software community에 기여
-* 자율 주행을 위한 센서의 개발을 비롯하여 오랜 기간 연구한 자율주행 로봇의 원천기술 보유
-* 하드웨어 제조 혹은 정보 기술만이 아닌 자율주행 로봇 하드웨어/소프트웨어 플랫폼을 통해 다양한 어플리케이션과 연동 개발하고 있어 제품 개선을 위한 Data 확보가 용이하고 로봇 서비스의 주도적 사업자가 될 수 있음
+* 하드웨어 제조 혹은 정보 기술만이 아닌 자율주행 로봇 하드웨어/소프트웨어 플랫폼을 통해 다양한 어플리케이션에 대한 개발하고 있어 센서를 통한 환경 데이터, 서비스 운영 데이터 등의 확보가 용이
+  * 사내에서도 주문 앱을 통해 1층 로봇 까페로부터 근무하고 있는 사무실까지 엘리베이터를 타고 [로봇이 층간 음료 배달하는 서비스](https://www.youtube.com/watch?v=-w7rsMXLpcY)를 국내 최초로 운영하는 중이며 개발된 시스템을 직접 활용하여 개선점을 찾고 개발 계획에 반영하고 있음.
 
 ## 우리가 지향하는 개발 문화
 
@@ -19,15 +20,15 @@
 
 ## ROCON 프로젝트 소개 및 비전
 
-단일 로봇의 기능에만 의존하는 서비스 로봇의 한계를 벗어나 여러대의 다양한 로봇들이 실제 삶의 현장속에 녹아들어 주변의 엘리베이터와 같은 시설부터 IOT 장치들과 서로 연동하여 가치있는 로봇 서비스를 제공할 수 있는 로봇 서비스 SW 프레임워크입니다. 
+단일 로봇의 기능에만 의존하는 서비스 로봇의 한계를 벗어나 여러대의 다양한 로봇들이 실제 삶의 현장속에 녹아들어 주변의 엘리베이터와 같은 시설부터 IOT 센서/기기들과 서로 연동하여 가치있는 로봇 서비스를 제공할 수 있는 로봇 서비스 SW 프레임워크입니다. 
 마치 음악회(Concert)같이 다수 로봇을 통한 서비스가 주변 환경 및 사람들과 조화롭게 이루어진다고 생각하여 Robotics in Concert라고 프로젝트의 이름을 정했습니다. 
 
 주요 기능은 다음과 같습니다.
 
-- 로봇 서비스의 운영 환경에 대한 정의(Site configuration)
+- 로봇 서비스의 운영 환경에 대한 설정 및 공유(Site configuration)
 - 사용자가 원하는 서비스를 가장 적합한 로봇이 수행할 수 있도록 스케쥴링
-- 로봇간의 충돌이나 효율적으로 이동할 수 있도록 Traffic control
-- 서비스를 구성하는 resource에 대한 관리 및 모니터링
+- 로봇간의 충돌을 회피하고 효율적으로 이동할 수 있도록 Traffic control
+- 서비스에 필요한 resource들을 구성원들이 효율적으로 사용할 수 있도록 관리 및 모니터링
 - 서비스 운영 결과에 대한 리포트 및 분석
 
 로봇과 다양한 IOT 기기들이 점점 일터와 생활 속에서 역할을 더해가는 4차 산업시대에 사용자가 원하는 정보 서비스와 물리적 서비스를 다양한 비지니스 환경에서 여러 자율 주행 로봇들이 수행할 수 있도록 지원하는 것이 ROCON 프로젝트입니다.
@@ -59,7 +60,7 @@
 | Architecture Design                | Micro Service Architecture |
 | VCS                                | Git                        |
 | Project Management, Issue Tracking | JIRA                       |
-| Communication                      | Slack                      |
+| Communication                      | Teams                      |
 | Deployment                         | Docker                     |
 
 ## 지원 방법
@@ -68,7 +69,7 @@
 1. 지원서 제출
    * <rndjobs@yujinrobot.com> 으로 이메일 지원
 1. 서류 전형
-1. 면접 (1차 : 실무진, 2차 : 임원진)
+1. 면접 (1차 : 실무, 2차 : 임원)
 
 ### 제출서류
 
@@ -79,7 +80,7 @@
 ## Open Positions
 ------
 
-### Front-end Developer (Junior, Intermediate, Senior)
+### Front-end Developer (Intermediate, Senior)
 
 #### 주요 업무 : 프론트엔드 응용 프로그램 및 프레임워크 개발
 
@@ -93,7 +94,7 @@
 #### Front-End 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다.
 
-* UI Framework: Angular2
+* UI Framework: Angular
   * material2 : @angular/material
   * flexLayout : @angular/flex-layout
 * Library for reactive programming : RxJS
@@ -108,15 +109,15 @@
 #### 우대 사항
 아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
 
-* Full-Stack Web Developer
-* Angular 사용에 능숙한 사람
 * JavaScript 개발 환경 및 웹 소프트웨어 생애 주기에 대한 깊은 이해가 있는사람
+* Angular 사용에 능숙한 사람
 * CI / CD 경험자
+* Full-Stack Web Developer
 * 오픈소스 프로젝트 기여 경험
 
 ------
 
-### Back-end Developer (Junior, Intermediate, Senior)
+### Back-end Developer (Junior, Intermediate)
 
 #### 주요 업무 : 로봇 시스템 운영을 위한 서버 및 프레임워크 개발
 
@@ -138,9 +139,7 @@
 
 * Server Software : Nodejs
   * Express.js - middleware & api server
-* Database : MySQL, MariaDB, MongoDB
-  * mongoose - mongoDB ODM
-  * sequelize - RDBMS ORM
+* Database : MariaDB, MongoDB, Redis
 * Logging: winston
 * Linting : ESLint
 * Testing : AVA
@@ -154,18 +153,18 @@
 #### 우대 사항
 아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
 
-* Full-stack Web Developer
-* Linux 환경에서의 개발이 익숙한 사람
 * RESTful API 설계 경험
 * Network, IT Security 에 대한 지식
 * RDB, NoSQL DB 사용이 익숙한 사람
+* Linux 환경에서의 개발이 익숙한 사람
+* Full-stack Web Developer
 * CI / CD 경험
 * 클라우드 서비스 이용 및 구축 경험
 * 오픈소스 프로젝트 기여 경험
 
 ------
 
-### Python Developer (Intermediate, Senior)
+### Python Developer (Intermediate)
 
 #### 주요 업무 : 로봇의 의사 결정 및 서버와 협업을 위한 시스템 개발
 
