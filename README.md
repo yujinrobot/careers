@@ -10,6 +10,8 @@
 * 국내 최초 ROS reference 오픈하드웨어 모바일 베이스인 [Kobuki](http://kobukikr.yujinrobot.com) 출시 및 [ROS SW package](http://wiki.ros.org/kobuki) 개발 등 Open source robotics software community에 기여
 * 하드웨어 제조 혹은 정보 기술만이 아닌 자율주행 로봇 하드웨어/소프트웨어 플랫폼을 통해 다양한 어플리케이션에 대한 개발하고 있어 센서를 통한 환경 데이터, 서비스 운영 데이터 등의 확보가 용이
   * 사내에서도 주문 앱을 통해 1층 로봇 까페로부터 근무하고 있는 사무실까지 엘리베이터를 타고 [로봇이 층간 음료 배달하는 서비스](https://www.youtube.com/watch?v=-w7rsMXLpcY)를 국내 최초로 운영하는 중이며 개발된 시스템을 직접 활용하여 개선점을 찾고 개발 계획에 반영하고 있음.
+* 공장 자동화 설비 부터 자율주행 물류 자동화 및 로보타이제이션 솔루션까지 Industrial logistics 4.0 Total solution을 제공 중
+  * https://yujinrobot.com/industry-case
 
 ## 우리가 지향하는 개발 문화
 
@@ -50,7 +52,7 @@
 ## Software 개발자 공통
 * 소프트웨어 관련 전공 학사 또는 그에 해당하는 유관 분야 경력자
 * 기초 전공지식을 갖춘 사람 (Data Structure, Algorithm, OS, Network 등)
-* VCS (git, svn 등) 사용이 가능한 사람
+* VCS (git) 사용이 가능한 사람
 
 ## Software 공통 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다.
@@ -69,7 +71,7 @@
 1. 지원서 제출
    * <rndjobs@yujinrobot.com> 으로 이메일 지원
 1. 서류 전형
-1. 면접 (1차 : 실무, 2차 : 임원)
+1. 면접 (1차 : 코딩테스트, 2차:실무 면접, 3차 : 임원 면접)
 
 ### 제출서류
 
@@ -94,12 +96,12 @@
 #### Front-End 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다.
 
-* UI Framework: Angular
-  * material2 : @angular/material
-  * flexLayout : @angular/flex-layout
+* Typescript
+* Framework: Vue3
+  * UI Library: quasar
+* eslint, prettier
 * Library for reactive programming : RxJS
-* Linting : TSLint
-* Testing : karma
+* Library for drawing : Konva.js
 
 #### 요구 사항
 * 모집대상 공통
@@ -110,7 +112,7 @@
 아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
 
 * JavaScript 개발 환경 및 웹 소프트웨어 생애 주기에 대한 깊은 이해가 있는사람
-* Angular 사용에 능숙한 사람
+* Vue 사용에 능숙한 사람
 * CI / CD 경험자
 * Full-Stack Web Developer
 * 오픈소스 프로젝트 기여 경험
@@ -137,12 +139,11 @@
 #### Back-End 사용기술 및 도구
 현재 사용하는 기술이며 지원자의 경험과 일치할 필요는 없습니다. 
 
-* Server Software : Nodejs
-  * Express.js - middleware & api server
-* Database : MariaDB, MongoDB, Redis
+* Server Software : Nodejs 
+* Database : MongoDB, Redis
+* MessageQueue : rabbitMQ
 * Logging: winston
 * Linting : ESLint
-* Testing : AVA
 
 #### 요구 사항
 * 모집대상 공통
@@ -225,11 +226,10 @@
 #### 우대 사항
 아래는 직무에 도움이 되는 관련기술들의 나열이므로 필수 요구사항이 아닌 참고사항입니다.
 
-* 사물인터넷(IOT)관련 개발 경험.
-* Restful API 설계/서비스 개발 혹은 이용 경험
 * Game AI 등에서 계획 수행 알고리즘 사용 경험(Ex : Behaviour tree)
 * Robotics 전공자 혹은 ROS 사용 경험자
 * Python 개발 경험
+* API 설계/서비스 개발 혹은 이용 경험
 
 
 
